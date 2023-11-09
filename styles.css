@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    
+    outline: none;
+    border: none;
+}
+
+.header{
+    background-color: #407C87;
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+body{
+    background-color: #D3E1E2;
+    text-align: center;
+    align-items: center;
+}
+
+.convertor{
+    height: 400px;
+    margin-top: 200px;
+    border: 2px red;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+footer{
+    position:sticky;
+    bottom: 0;
+    background-color: #A5DBDD;
+    height: 80px;
+    font-size: x-large;
+}
+
+#celcius{
+    background: none;
+    background-color: #A5DBDD;
+    border-radius: 12px;
+    height: 45px;
+    width: 250px;
+    font-size: 17px;
+}
+
+#faherenite{
+    background: none;
+    background-color: #A5DBDD;
+    border-radius: 12px;
+    height: 45px;
+    width: 250px;
+    font-size: 17px;
+}
+
+button{
+    background-color: #407C87;
+    color: white;
+    height: 50px;
+    width: 50px;
+    font-size: larger;
+    margin: 0 40px;
+    border-radius: 50%;
+
+}
